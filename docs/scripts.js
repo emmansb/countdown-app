@@ -5,13 +5,13 @@ const secondsEl = document.getElementById('seconds');
 
 
 
-const easterSunday = 'April 17 2022'
+const newYear = 'January 01 2023'
 
 function countdown() {
-    const easterSundayDate = new Date(easterSunday);
+    const newYearDate = new Date(newYear);
     const currentDate = new Date();
 
-    const totalSeconds =(easterSundayDate - currentDate) / 1000;
+    const totalSeconds =(newYearDate - currentDate) / 1000;
 
     const days = Math.floor(totalSeconds/3600/24);
     const hours = Math.floor(totalSeconds/3600)%24;

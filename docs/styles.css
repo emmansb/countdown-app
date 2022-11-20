@@ -9,7 +9,7 @@
 
 body {
     align-items: center;
-    background-image: url(img/christi-marcheschi-fQZOhgyMktg-unsplash.jpg);
+    background-image: url(img/pexels-engin-akyurt-13088176.jpg);
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -21,16 +21,20 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin: 0 auto;
    
 }
 
+
+
 .big-text {
-    font-size: 5rem;
+    font-size: 6rem;
     font-weight: bolder;
     line-height: 1;
     margin: 1rem 2rem;
     color: #8a0303;
+    text-shadow: 3px 3px 3px white;
 }
 
 .countdown-container {
